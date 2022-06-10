@@ -11,6 +11,7 @@
 		55DACA59283F682A0092C655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA58283F682A0092C655 /* ContentView.swift */; };
 		55DACA5B283F682D0092C655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DACA5A283F682D0092C655 /* Assets.xcassets */; };
 		55DACA5E283F682D0092C655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DACA5D283F682D0092C655 /* Preview Assets.xcassets */; };
+		55DACA69284271860092C655 /* PrefsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA68284271860092C655 /* PrefsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		55DACA58283F682A0092C655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55DACA5A283F682D0092C655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DACA5D283F682D0092C655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55DACA68284271860092C655 /* PrefsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				55DACA56283F682A0092C655 /* CCLCommsApp.swift */,
 				55DACA58283F682A0092C655 /* ContentView.swift */,
+				55DACA68284271860092C655 /* PrefsView.swift */,
 				55DACA5A283F682D0092C655 /* Assets.xcassets */,
 				55DACA5C283F682D0092C655 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DACA69284271860092C655 /* PrefsView.swift in Sources */,
 				55DACA59283F682A0092C655 /* ContentView.swift in Sources */,
 				55DACA57283F682A0092C655 /* CCLCommsApp.swift in Sources */,
 			);
