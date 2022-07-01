@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55825B44286EEA4100A69C8F /* TempoStd-HeavyCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B38286EEA4100A69C8F /* TempoStd-HeavyCondensed.otf */; };
+		55825B45286EEA4100A69C8F /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3A286EEA4100A69C8F /* OpenSans-Semibold.ttf */; };
+		55825B46286EEA4100A69C8F /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3B286EEA4100A69C8F /* OpenSans-Light.ttf */; };
+		55825B47286EEA4100A69C8F /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3C286EEA4100A69C8F /* OpenSans-Italic.ttf */; };
+		55825B48286EEA4100A69C8F /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3D286EEA4100A69C8F /* OpenSans-ExtraBold.ttf */; };
+		55825B49286EEA4100A69C8F /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3E286EEA4100A69C8F /* OpenSans-LightItalic.ttf */; };
+		55825B4A286EEA4100A69C8F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B3F286EEA4100A69C8F /* OpenSans-Bold.ttf */; };
+		55825B4B286EEA4100A69C8F /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B40286EEA4100A69C8F /* OpenSans-SemiboldItalic.ttf */; };
+		55825B4C286EEA4100A69C8F /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B41286EEA4100A69C8F /* OpenSans-ExtraBoldItalic.ttf */; };
+		55825B4D286EEA4100A69C8F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B42286EEA4100A69C8F /* OpenSans-Regular.ttf */; };
+		55825B4E286EEA4100A69C8F /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55825B43286EEA4100A69C8F /* OpenSans-BoldItalic.ttf */; };
+		55825B50286EEA5800A69C8F /* CCLFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55825B4F286EEA5800A69C8F /* CCLFont.swift */; };
 		55DACA57283F682A0092C655 /* CCLCommsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA56283F682A0092C655 /* CCLCommsApp.swift */; };
 		55DACA59283F682A0092C655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA58283F682A0092C655 /* ContentView.swift */; };
 		55DACA5B283F682D0092C655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DACA5A283F682D0092C655 /* Assets.xcassets */; };
 		55DACA5E283F682D0092C655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DACA5D283F682D0092C655 /* Preview Assets.xcassets */; };
-		55DACA69284271860092C655 /* PrefsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA68284271860092C655 /* PrefsView.swift */; };
+		55DACA69284271860092C655 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DACA68284271860092C655 /* AccountsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55825B38286EEA4100A69C8F /* TempoStd-HeavyCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TempoStd-HeavyCondensed.otf"; sourceTree = "<group>"; };
+		55825B3A286EEA4100A69C8F /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		55825B3B286EEA4100A69C8F /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		55825B3C286EEA4100A69C8F /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		55825B3D286EEA4100A69C8F /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		55825B3E286EEA4100A69C8F /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		55825B3F286EEA4100A69C8F /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		55825B40286EEA4100A69C8F /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		55825B41286EEA4100A69C8F /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		55825B42286EEA4100A69C8F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		55825B43286EEA4100A69C8F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		55825B4F286EEA5800A69C8F /* CCLFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCLFont.swift; sourceTree = "<group>"; };
 		55DACA53283F682A0092C655 /* CCLComms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLComms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DACA56283F682A0092C655 /* CCLCommsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCLCommsApp.swift; sourceTree = "<group>"; };
 		55DACA58283F682A0092C655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55DACA5A283F682D0092C655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DACA5D283F682D0092C655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55DACA68284271860092C655 /* PrefsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsView.swift; sourceTree = "<group>"; };
+		55DACA68284271860092C655 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +58,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55825B36286EEA4100A69C8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55825B37286EEA4100A69C8F /* TempoStd */,
+				55825B39286EEA4100A69C8F /* OpenSans */,
+			);
+			name = Fonts;
+			path = ../../../../../../iOS/CCL/Carnival.Ios.Styles/CCLStyles/CCLStyles/Assets/Fonts;
+			sourceTree = "<group>";
+		};
+		55825B37286EEA4100A69C8F /* TempoStd */ = {
+			isa = PBXGroup;
+			children = (
+				55825B38286EEA4100A69C8F /* TempoStd-HeavyCondensed.otf */,
+			);
+			path = TempoStd;
+			sourceTree = "<group>";
+		};
+		55825B39286EEA4100A69C8F /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				55825B3A286EEA4100A69C8F /* OpenSans-Semibold.ttf */,
+				55825B3B286EEA4100A69C8F /* OpenSans-Light.ttf */,
+				55825B3C286EEA4100A69C8F /* OpenSans-Italic.ttf */,
+				55825B3D286EEA4100A69C8F /* OpenSans-ExtraBold.ttf */,
+				55825B3E286EEA4100A69C8F /* OpenSans-LightItalic.ttf */,
+				55825B3F286EEA4100A69C8F /* OpenSans-Bold.ttf */,
+				55825B40286EEA4100A69C8F /* OpenSans-SemiboldItalic.ttf */,
+				55825B41286EEA4100A69C8F /* OpenSans-ExtraBoldItalic.ttf */,
+				55825B42286EEA4100A69C8F /* OpenSans-Regular.ttf */,
+				55825B43286EEA4100A69C8F /* OpenSans-BoldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
 		55DACA4A283F682A0092C655 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +114,10 @@
 			children = (
 				55DACA56283F682A0092C655 /* CCLCommsApp.swift */,
 				55DACA58283F682A0092C655 /* ContentView.swift */,
-				55DACA68284271860092C655 /* PrefsView.swift */,
+				55DACA68284271860092C655 /* AccountsView.swift */,
+				55825B4F286EEA5800A69C8F /* CCLFont.swift */,
 				55DACA5A283F682D0092C655 /* Assets.xcassets */,
+				55825B36286EEA4100A69C8F /* Fonts */,
 				55DACA5C283F682D0092C655 /* Preview Content */,
 			);
 			path = CCLComms;
@@ -128,8 +189,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55825B45286EEA4100A69C8F /* OpenSans-Semibold.ttf in Resources */,
 				55DACA5E283F682D0092C655 /* Preview Assets.xcassets in Resources */,
+				55825B48286EEA4100A69C8F /* OpenSans-ExtraBold.ttf in Resources */,
 				55DACA5B283F682D0092C655 /* Assets.xcassets in Resources */,
+				55825B47286EEA4100A69C8F /* OpenSans-Italic.ttf in Resources */,
+				55825B4A286EEA4100A69C8F /* OpenSans-Bold.ttf in Resources */,
+				55825B4B286EEA4100A69C8F /* OpenSans-SemiboldItalic.ttf in Resources */,
+				55825B46286EEA4100A69C8F /* OpenSans-Light.ttf in Resources */,
+				55825B4E286EEA4100A69C8F /* OpenSans-BoldItalic.ttf in Resources */,
+				55825B49286EEA4100A69C8F /* OpenSans-LightItalic.ttf in Resources */,
+				55825B4C286EEA4100A69C8F /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				55825B4D286EEA4100A69C8F /* OpenSans-Regular.ttf in Resources */,
+				55825B44286EEA4100A69C8F /* TempoStd-HeavyCondensed.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DACA69284271860092C655 /* PrefsView.swift in Sources */,
+				55DACA69284271860092C655 /* AccountsView.swift in Sources */,
+				55825B50286EEA5800A69C8F /* CCLFont.swift in Sources */,
 				55DACA59283F682A0092C655 /* ContentView.swift in Sources */,
 				55DACA57283F682A0092C655 /* CCLCommsApp.swift in Sources */,
 			);
@@ -279,6 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +382,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
