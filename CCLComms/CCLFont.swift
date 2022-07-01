@@ -2,8 +2,6 @@
 //  CCLFont.swift
 //  CCLStyles
 //
-//  Created by Gustavo Dario Conde on 04/07/2019.
-//  Copyright © 2019 Carnival Corporation. All rights reserved.
 //
 
 import Foundation
