@@ -313,7 +313,20 @@ struct ChatsView: View {
     }
 }
 
+struct AMTab {
+    let id: String = ""
+    let systemImage: String = ""
+}
+
+//class AMTabViewModel: ObservableObject {
+//    var tabs: [AMTab] = []
+//    var selectedTab: String
+//    
+//    init(tabs: [AMTab], )
+//}
+
 struct ContentView: View {
+    var vm = AccountViewModel(summary: AccountSummaryModel(charges: "$288.46", credits: "$200.00", total: "$88.46", ccpaid: "Mastercard ..5678"), charges: Transaction.mock, itinerary: Itinerary.mock)
     var body: some View {
         TabView {
             CallsView()
@@ -328,10 +341,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chat", systemImage: "bubble.left")
                 }
-            PrefsView()
+            AccountsView(vm: vm)
                 .tabItem {
-                    Label("Prefs", systemImage: "gear")
+                    Label("Account", systemImage: "dollarsign.circle")
                 }
+                .background(Color(hue: 1.0, saturation: 0.013, brightness: 0.888))
         }
     }
 }
